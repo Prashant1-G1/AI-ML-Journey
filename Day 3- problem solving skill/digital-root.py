@@ -1,3 +1,4 @@
+x= int(input("Enter the number: "))
 def digital_root(x):
     while x>=10:
         root=0
@@ -8,4 +9,4 @@ def digital_root(x):
         x=root
     return x
 
-print(digital_root(9))
+print(digital_root(x))
