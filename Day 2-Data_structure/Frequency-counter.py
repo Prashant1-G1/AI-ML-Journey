@@ -1,10 +1,11 @@
-count={}
+a="aaabbb"
+total={}
+if " " in a:
+    text=a.split(" ")
+    for x in text:
+        total[x]=text.count(x)
+else:
+    for x in a:
+        total[x]=a.count(x)
 
-text=input("Enter a text: ")
-
-text=text.split(" ")
-
-for x in text:
-    count[x]=text.count(x)
-
-print(count)
+print(total) 
